@@ -1,11 +1,11 @@
 :root {
-  --bg: #fffaf3;
+  --bg: #f4f7fb;
   --card: #ffffff;
-  --text: #2b2420;
-  --muted: #7a6a5e;
-  --accent: #d9822b;
-  --accent-soft: #fbeedd;
-  --line: #eadfd2;
+  --text: #1f2a36;
+  --muted: #5d6b7a;
+  --accent: #2f5f98;
+  --accent-soft: #e3ecf7;
+  --line: #d5e0ec;
 }
 * { box-sizing: border-box; }
 body {
@@ -52,13 +52,13 @@ main { padding: 20px; }
   border-left: 4px solid var(--line); color: var(--text);
 }
 #content mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; }
-#content code { background: #f3ebe1; padding: 1px 5px; border-radius: 4px; }
+#content code { background: #e6edf5; padding: 1px 5px; border-radius: 4px; }
 .score { color: var(--muted); font-size: 14px; }
 
 /* 枠 */
 .box, .ans {
   background: var(--card);
-  border: 1px solid #b9a796;
+  border: 1px solid #9fb3c9;
   border-radius: 8px;
   padding: 12px 16px;
   margin: 0 0 1.2em;
@@ -66,7 +66,7 @@ main { padding: 20px; }
 }
 .box p, .ans p { margin: 0 0 .4em !important; }
 .box p:last-child, .ans p:last-child { margin-bottom: 0 !important; }
-.ans { border-color: var(--accent); background: #fffdf9; }
+.ans { border-color: var(--accent); background: #fbfdff; }
 .box-title, .ans-title { font-weight: 700; }
 
 /* 表 */
@@ -80,12 +80,12 @@ table.data {
 .ans table.data { margin: 4px 0 8px; }
 table.data caption { font-weight: 700; font-size: 14px; padding-bottom: 6px; }
 table.data th, table.data td {
-  border: 1px solid #8a7a6c;
+  border: 1px solid #7d8fa3;
   padding: 4px 10px;
   text-align: center;
   white-space: nowrap;
 }
-table.data thead th, table.data tr:first-child th { background: #efe6db; }
+table.data thead th, table.data tr:first-child th { background: #e3ecf7; }
 table.data td.num { text-align: right; }
 table.data.boxes td { min-width: 2.4em; }
 
